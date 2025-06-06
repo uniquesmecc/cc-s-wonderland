@@ -1,1 +1,18 @@
-111
+# cc-s-wonderland
+
+This repository contains a simple terminal-based Snake game implemented in Python.
+
+## Requirements
+
+- Python 3.x
+- A terminal that supports the `curses` library (most Unix-like systems do).
+
+## Running the Game
+
+Execute the following command from the repository root:
+
+```bash
+python3 snake.py
+```
+
+Use the arrow keys to control the snake. The goal is to eat the `*` character, which increases the score and length of the snake. The game ends if the snake collides with itself.
